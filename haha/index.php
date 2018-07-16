@@ -1,0 +1,12 @@
+<?php
+header('Location:http://www.baidu.com');
+header("Content-type:text/html;charset=utf-8");
+//获取协议
+$_SERVER['REQUEST_SCHEME'];
+$_SERVER['HTTP_HOST'];
+$_SERVER['PHP_SELF'];
+$_SERVER['SERVER_PORT'];
+$_SERVER['SERVER_ADDR'];
+$_SERVER['HTTP_REFERER'];
+$_SERVER['REQUEST_URI'];
+$_SERVER['REMOTE_ADDR'];
